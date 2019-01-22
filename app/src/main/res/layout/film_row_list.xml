@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/gambar"
+        android:layout_toRightOf="@id/gambar"
+        android:text="Title"
+        android:textSize="@dimen/judul"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_judul"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/gambar"
+        android:text="Rating"
+        android:textSize="@dimen/rate" />
+
+    <TextView
+        android:id="@+id/tv_vote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_rate"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/gambar"
+        android:text="Vote"
+        android:textColor="@color/vote"
+        android:textSize="@dimen/vote" />
+
+    <TextView
+        android:id="@+id/tv_releasedate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_vote"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="22-11-2018"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/releasedate" />
+
+</RelativeLayout>

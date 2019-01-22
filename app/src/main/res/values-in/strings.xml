@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Katalog Film Ui Ux</string>
+    <string name="nav_header_title">Muhamad Ardiyansyah</string>
+    <string name="nav_header_subtitle">ardiyansyahh20@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_home_tab_fragment">HomeTabFragment</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!--for localization-->
+    <string name="find_movie">Masukkan Judul Film</string>
+    <string name="find">CARI</string>
+    <string name="find_title">CARI FILM</string>
+    <string name="title">Judul</string>
+    <string name="overview">Sinopsis</string>
+    <string name="date_release">Tanggal Rilis</string>
+    <string name="now_playing">SEDANG TAYANG</string>
+    <string name="upcoming">AKAN DATANG</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="home">Beranda</string>
+    <string name="findmovie">Cari Film</string>
+    <string name="vote">Pemilih : %s</string>
+    <string name="rating">Peringkat : %s</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="movieTitle">Judul Film</string>
+    <string name="movieOverview">Sinopsis</string>
+    <string name="releaseDate">Tanggal Rilis</string>
+    <string name="favorite">Favorit</string>
+    <string name="share">Bagikan</string>
+    <string name="image_movie">Gambar Film</string>
+    <string name="detail">detil</string>
+    <string name="preference">Pilihan</string>
+    <string name="settings">Pengaturan</string>
+    <string name="exit">Keluar</string>
+    <string name="dialog_exit"> Apakah anda ingin keluar?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="datakosong">belum ada data</string>
+    <string name="addFav">Ditambahkan ke daftar favorit anda</string>
+    <string name="delFav">Dihapus dari daftar favorit anda</string>
+
+    <string name="notification">Notifikasi</string>
+    <string name="detail_daily_reminder">Nyalakan pengingat harian untuk mendapatkan notifikasi pada pukul 7 pagi</string>
+    <string name="release_reminder">Nyalakan pengingat film harian untuk mendapatkan notifikasi pada pukul 8 pagi</string>
+    <string name="change_language">Ganti bahasa</string>
+    <string name="localization">Lokalisasi</string>
+    <string name="daily_message">Ayo cek Katalog film nya</string>
+    <string name="movie_release_reminder">Menyalakan pengingat rilis film </string>
+    <string name="daily_reminder">Pengingat harian</string>
+    <string name="release_movie">%s sudah rilis, tetap cek dan tonton ya</string>
+    <string name="key_reminder_daily">key_reminder_daily</string>
+    <string name="key_reminder_release">key_reminder_release</string>
+    <string name="reminder_release">Pengingat Film Terbaru</string>
+    <string name="key_language">key_language</string>
+    <string name="select_language">Pilih Bahasa</string>
+    <string name="movie_daily_reminder">Menyalakan pengingat harian</string>
+</resources>
